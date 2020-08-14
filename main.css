@@ -1,0 +1,47 @@
+.header-main-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(95, 158, 160, 0.2);
+  padding: 20px 0;
+}
+.h2-optica {
+  color: crimson;
+  margin: 0;
+  padding: 0;
+}
+.title-plus {
+  color: black;
+}
+.title-medtech {
+  color: midnightblue;
+}
+.container-title {
+  padding: 25px;
+  flex-grow: 5;
+  ba
+}
+.header-search {
+  flex-grow: 1;
+}
+.header-contacts {
+  flex-grow: 1;
+}
+.btn-outline-success {
+  border: 1px solid rgba(25, 25, 112, 0.75);
+  color: midnightblue;
+}
+.form-control {
+  border: 1px solid rgba(220, 20, 60, 0.75);
+}
+.header-contacts {
+  flex-grow: 1;
+}
+.header-tel {
+  text-decoration: none;
+  color: midnightblue;
+  font-weight: 600;
+}
+.container-korzina{
+    flex-grow: 1;
+}
