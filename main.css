@@ -1,17 +1,27 @@
+html {
+  background-color: rgba(95, 158, 160, 0.1);
+}
 .header-main-content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: rgba(95, 158, 160, 0.2);
   padding: 20px 0;
+  background-color: rgba(220, 20, 60, 0.08);
 }
-.h2-optica {
+.main-title:link {
+  text-decoration: none;
+}
+.main-title:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
+.word-optica {
   color: crimson;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 3%;
 }
 .title-plus {
-  color: black;
+  color: rgba(0, 0, 0, 0.75);
 }
 .title-medtech {
   color: midnightblue;
@@ -19,7 +29,6 @@
 .container-title {
   padding: 25px;
   flex-grow: 5;
-  ba
 }
 .header-search {
   flex-grow: 1;
@@ -31,17 +40,49 @@
   border: 1px solid rgba(25, 25, 112, 0.75);
   color: midnightblue;
 }
+.btn-outline-success:hover {
+  background-color: midnightblue;
+  border: 1px solid rgb(25, 25, 112);
+}
 .form-control {
   border: 1px solid rgba(220, 20, 60, 0.75);
 }
 .header-contacts {
   flex-grow: 1;
 }
-.header-tel {
+.header-tel:link {
   text-decoration: none;
   color: midnightblue;
   font-weight: 600;
 }
-.container-korzina{
-    flex-grow: 1;
+.header-tel:hover {
+  text-decoration: none;
+  color: rgba(220, 20, 60, 0.75);
+}
+.container-korzina {
+  flex-grow: 1;
+}
+.nav-ul {
+  display: flex;
+  padding: 0;
+}
+.nav-ul li {
+  display: inline;
+  flex-grow: 1;
+  list-style-type: none;
+  padding: 12px 0;
+  background-color: white;
+  border: 1px solid rgba(25, 25, 112, 0.15);
+  border-top: 2px solid rgba(25, 25, 112, 0.5);
+  border-bottom: 2px solid rgba(25, 25, 112, 0.5);
+}
+.nav-ul a {
+  display: block;
+  color: midnightblue;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-ul li:hover {
+  background-color: rgba(95, 158, 160, 0.04);
+  font-weight: 500;
 }
